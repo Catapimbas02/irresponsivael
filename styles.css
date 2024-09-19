@@ -1,0 +1,146 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #000000;
+    --fonte-principal: 'Inter';
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    background-image: url(image\ preto.jpg);
+    width: auto;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__botao {
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    text-decoration: none;
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal)
+}
+
+.container__aviso {
+    font-size: 12px;
+    color: var(--cinza-secundario);
+}
+
+.container__titulo {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container__imagem {
+    margin: 1em 0 2em 0;
+}
+
+.container__caixa {
+    margin: 0 6em;
+    margin-top: 100px;
+}
+
+.secundario__imagem {
+    width: 60%;
+    opacity: 100%;
+    
+
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+    align-items: center;
+}
+
+.descricao__texto {
+    color: var(--cinza-secundario);
+    align-items: center;
+}
+
+.secundario-img{
+    width: 40%;
+    align-items: center;
+    margin-left: 400px;
+    
+
+
+}
+
+.container-secundario{
+    
+}
+.dispositivos-lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.lista-item{
+    text-align: center;
+    font-size: 32;
+    color: var(--branco-principal);
+}
+
+.dispositivos-titulo{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 48px;
+}
+
+.luffy-gigante{
+    max-width: 300px;
+    max-height: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.baixaki{
+    margin-top: 3em;
+    display: flex;
+    
+}
+
+.botao-baixaki{
+    align-items: center;
+    position: absolute;
+    width: 30%;
+
+}
+
+.titulo-botao-baixaki{
+    align-items: center;
+    justify-content: center;
+}

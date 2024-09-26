@@ -145,5 +145,10 @@ body {
     justify-content: center;
 }
 
+.hello-kito{
+    margin-left: 700px;
+
+}
+
 @media screen and (min-width: 1024px) {
   }
